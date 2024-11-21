@@ -1,0 +1,211 @@
+
+
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.footer-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0 80px 50px;
+    z-index: 1;
+}
+.footer-area .container-box{
+    position: relative;
+    display: block;
+    
+    background-color: #171717;    
+}
+.footer-top{
+    position: relative;
+    display: block;
+}
+.footer-top .footer-logo {
+    position: relative;
+    display: block;
+    margin-bottom: 52px;
+}
+.footer-top .footer-logo a{
+    position: relative;
+    display: inline-block;
+}
+
+.footer-top .footer-menu{
+    position: relative;
+    display: block;
+}
+.footer-top .footer-menu ul{
+    overflow: hidden;
+}
+.footer-top .footer-menu ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 23px;
+}
+.footer-top .footer-menu ul li:first-child{
+    margin-left: 0;
+}
+.footer-top .footer-menu ul li:last-child{
+    margin-right: 0;
+}
+.footer-top .footer-menu ul li a{
+    color: rgba(255, 255, 255, 0.50);
+    transition: all 500ms ease;
+}
+.footer-top .footer-menu ul li a:hover{
+    color: #ffffff;
+}
+
+
+.footer {
+    position: relative;
+    display: block;
+    
+    padding: 30px 0 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+.footer-content-box{
+    position: relative;
+    margin-left: -60px;
+    margin-right: -60px;
+}
+.single-footer-widget {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    padding-bottom: 18px;
+    margin-bottom: 40px;
+}
+.single-footer-widget .title h3{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.single-footer-widget .title:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 1px;
+    content: "";
+}
+
+
+.single-footer-widget .footer-contact-info{
+    position: relative;
+    display: block;
+}
+.single-footer-widget .footer-contact-info ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: -3px;
+}
+.single-footer-widget .footer-contact-info ul li{
+    position: relative;
+    display: block;
+    margin-bottom: 19px;
+}
+.single-footer-widget .footer-contact-info ul li:last-child{
+    margin-bottom: 0;
+}
+.single-footer-widget .footer-contact-info ul li h5{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin:  0;
+}
+.single-footer-widget .footer-contact-info ul li p{
+    color: rgba(255, 255, 255, 0.70);    
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 9px 0 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-footer-widget .footer-contact-info ul li p a{
+    color: rgba(255, 255, 255, 0.70); 
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.single-footer-widget .footer-contact-info ul li p a:hover{
+    color: #ffffff;
+}
+
+.footer-bottom {
+    position: relative;
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 30px 0;
+}
+.footer-bottom .outer-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copyright-text {
+    position: relative;
+    display: block;
+}
+.copyright-text p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+.copyright-text p a {
+    color: rgba(255, 255, 255, 0.70);
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+.copyright-text p a:hover{
+    color: rgba(255, 255, 255);    
+}
+
+.footer-social-link{
+    position: relative;
+    display: block;
+}
+.footer-social-link ul{
+    overflow: hidden;
+}
+.footer-social-link ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 40px;
+}
+.footer-social-link ul li:last-child{
+    margin-right: 0;
+}
+.footer-social-link ul li a{
+    position: relative;
+    display: inline-block;
+    color: #888888;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+

@@ -1,0 +1,123 @@
+
+
+
+/*** 
+=============================================
+    Welcome Style1 Area Css
+=============================================
+***/
+.welcome-style1-area{
+    position: relative;
+    display: block;
+    padding: 30px 0 30px;
+}
+.welcome-style1-area .layer-outer{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    opacity: 0.03;
+    z-index: 1;
+    
+}
+.welcome-style1-content{
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.welcome-style1-content .thm-logo-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    z-index: 10;
+}
+.welcome-style1-content .top{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.welcome-style1-content .bottom{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+
+.welcome-style1-content ul{
+    position: relative;
+}
+.welcome-style1-content ul li {
+    position: relative;
+    display: block;
+}
+.welcome-style1-content .top ul li .img-box{
+    width: 570px;
+}
+.welcome-style1-content ul li .img-box .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.welcome-style1-content ul li .img-box .inner::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    transform: skewX(-25deg);
+    z-index: 2;
+}
+.welcome-style1-content ul li:hover .img-box .inner::after{
+	-webkit-animation: shine 1.5s;
+	animation: shine 1.5s;
+}
+.welcome-style1-content .top ul li .img-box,
+.welcome-style1-content .top ul li .text-box{
+    display: table-cell;
+    vertical-align: top;
+}
+.welcome-style1-content .top ul li .text-box {
+    position: relative;
+    padding-top: 4px;
+    padding-left: 60px;
+}
+.welcome-style1-content h2 {
+    color: #222222;
+    font-size: 30px;
+    line-height: 46px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+.welcome-style1-content p{
+    margin: 0;
+}
+.welcome-style1-content .bottom ul li .text-box{
+    width: 570px;
+}
+.welcome-style1-content .bottom ul li .text-box,
+.welcome-style1-content .bottom ul li .img-box{
+    display: table-cell;
+    vertical-align: top;
+}
+.welcome-style1-content .bottom ul li .text-box {
+    position: relative;
+    padding-top: 4px;
+    padding-right: 60px;
+}
+

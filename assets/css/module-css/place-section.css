@@ -1,0 +1,33 @@
+
+
+
+/*** 
+=============================================
+    Place Style1 Area Css
+=============================================
+***/
+.place-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 50px 0 50px;
+}
+.place-style1-content {
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    padding: 30px ;
+}
+
+.place-style1-content .title{
+    position: relative;
+    display: block;
+    padding-bottom: 32px;
+}
+.place-style1-content .title h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}

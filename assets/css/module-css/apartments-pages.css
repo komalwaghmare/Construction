@@ -1,0 +1,85 @@
+
+
+
+
+
+
+/*** 
+=============================================
+    Apartments Details One Css
+=============================================
+***/
+.apartments-details-one{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 30px 0 30px;
+}
+.apartments-details-one-content{
+    position: relative;
+    display: block;
+    max-width: 945px;
+    width: 100%;
+    margin: 0 auto;
+}
+.apartments-details-image-box{
+    position: relative;
+    display: block;
+}
+.apartments-details-image-box .single-item{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.apartments-details-image-box .single-item img{
+    width: 100%;
+}
+.apartments-details-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    text-align: center;
+    line-height: 0;
+    margin-top: 0px !important;
+    display: block;
+}
+
+.apartments-details-text-box {
+    position: relative;
+    display: block;
+    padding-top: 45px;
+}
+.apartments-details-text-box h2{
+    color: #222222;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0 0 17px;
+}
+.apartments-details-text-box span{
+    color: #222222;
+    font-weight: 700;
+}
+.apartments-details-text-box .text {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+}
+.apartments-details-text-box .text p{
+    margin: 0 0 28px;
+}
+.apartments-details-text-box .button-box {
+    position: relative;
+    display: block;
+    margin-top: 58px;
+}
+.apartments-details-text-box .button-box a{
+    margin: 0 5px;
+}
+.apartments-details-text-box .button-box a .txt{
+    color: #ffffff;
+}
+.apartments-details-text-box .button-box a.black{
+    background: #444444;
+}

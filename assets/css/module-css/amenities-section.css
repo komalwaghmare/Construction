@@ -1,0 +1,124 @@
+
+
+/*** 
+=============================================
+   Amenities Style2 Area Css
+=============================================
+***/
+.amenities-style2-area{
+    position: relative;
+    display: block;
+    padding: 50px 0 30px;
+    z-index: 1;
+}
+.amenities-style2-area-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+.amenities-style2-area .top-title-box{
+    position: relative;
+    display: block;
+    max-width: 630px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.amenities-style2-area .top-title-box .logo-box{
+    color: #ffffff;
+    font-size: 65px;
+}
+.amenities-style2-area .top-title-box h2{
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 13px 0 16px;
+}
+.amenities-style2-area .top-title-box p{
+    color: #ffffff;
+    margin: 0;
+}
+
+.single-amenities-box-style3 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 30px 0 30px;
+    margin-bottom: 30px;
+    transition: all 500ms ease;
+    z-index: 1;
+    height:180px;
+}
+.single-amenities-box-style3:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-amenities-box-style3:hover:before{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-amenities-box-style3:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-amenities-box-style3:hover:after{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-amenities-box-style3 span {
+    font-size: 60px;
+    transition: all 600ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style3:hover span{
+    color: #ffffff;
+}
+.single-amenities-box-style3 span:before{}
+.single-amenities-box-style3 h5 {
+    color: #222222;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    transition: all 600ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style3:hover h5{
+    color: #ffffff;
+}
